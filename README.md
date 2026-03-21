@@ -79,5 +79,8 @@ stockvision-ai/
    *   **Backend**: `uvicorn app.api.server:app --port 8000`
    *   **Frontend**: `streamlit run dashboard/streamlit_app.py`
 
-## ⚠️ Disclaimer
-StockVision AI is a research tool powered by AI. Investing involves risk. Always consult with a certified financial advisor before making trading decisions.
+## Project Demo
+Demo Link : https://youtu.be/xH7hLXebkPg 
+
+## Author
+Aayush Tripathi
