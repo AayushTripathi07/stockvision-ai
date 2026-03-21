@@ -1,83 +1,120 @@
 # StockVision AI 📈
-**The Ultimate Intelligence-First Trading Terminal**
+**The Definitive Intelligence-First Trading Terminal & Predictive Ecosystem**
 
-StockVision AI is a comprehensive, all-in-one financial research and prediction platform. It bridges the gap between institutional-grade analytics and retail trading by combining real-time data from multiple high-fidelity sources with state-of-the-art Artificial Intelligence and Machine Learning models.
+StockVision AI is not just a dashboard—it is a complete **All-In-One Financial Intelligence Platform**. It integrates institutional-grade predictive modeling, social sentiment harvesting, and Large Language Model (LLM) reasoning to provide a 360-degree view of the global financial markets. By bridging the gap between raw data and actionable intelligence, StockVision AI empowers traders with the same technology used by quantitative hedge funds.
 
-## 🌟 Why StockVision AI? (All-In-One Platform)
-Unlike traditional trading tools, StockVision AI doesn't just show you data—it **thinks** about it. By integrating technical forecasting, social sentiment, and LLM-driven reasoning, it provides a 360-degree view of any asset.
+---
 
-### 📊 Massive Asset Coverage
-*   **2,000+ Stocks & Assets**: Support for the **entire NSE (India) master list**, the full **S&P 500 (US)**, major global indices (^NSEI, ^GSPC, ^N225), and top Cryptocurrencies (BTC, ETH).
-*   **Instant Search**: A centralized command center to switch between global markets in milliseconds.
+## 🌟 The "All-In-One" Value Proposition
+Most trading platforms provide data; StockVision AI provides **understanding**. It handles the entire pipeline of modern trading:
+1.  **Ingestion**: Scrapes global news, Reddit trends, and institutional filings.
+2.  **Forecasting**: Trains neural networks on-the-fly to predict price action.
+3.  **Reasoning**: Uses AI to debate investment cases and decode management "tone".
+4.  **Interaction**: A context-aware chatbot that knows your portfolio and the stocks you search.
 
-## 🚀 Advanced AI & Machine Learning Features
+---
 
-### 1. Dual-Core AI Intelligence Engine
-*   **Primary Brain**: **Google Gemini 1.5 Flash**—Optimized for complex financial reasoning, executive tone decoding, and conversational research.
-*   **Fail-Safe Engine**: **Groq (Llama 3.3 70B)**—A high-speed fallback system that ensures the platform remains operational even if Gemini hits rate limits.
+## 🚀 Key Feature Deep-Dive
 
-### 2. Predictive Neural Network Suite
-The platform runs a specialized FastAPI backend that trains and executes an ensemble of models for every prediction request:
-*   **PatchTST (Transformer)**: A state-of-the-art transformer model for long-term time-series forecasting.
-*   **LSTM (Long Short-Term Memory)**: Captures sequential patterns and market momentum.
-*   **ARIMA**: Classic statistical modeling for baseline trend analysis.
+### 1. The Dual-Core AI Brain (High Availability)
+*   **Primary Brain**: **Google Gemini 1.5 Flash**. Used for deep reasoning, mathematical step-by-step financial calculations, and executive communications analysis.
+*   **Fail-Safe Engine**: **Groq (Llama 3.3 70B)**. An ultra-fast inference engine that takes over automatically if Gemini hits quota limits, ensuring your terminal never goes dark.
 
-### 3. AI Research Debate Engine
-Simulates an institutional investment committee:
-*   **Bull Agent**: Builds the strongest possible growth case.
-*   **Bear Agent**: Identifies hidden risks, debt issues, and overvaluation.
-*   **Judge Agent**: Synthesizes both cases into a final verdict and a conviction score (1-10).
+### 2. AI Research & Debate Engine
+Simulates an elite investment committee for every ticker:
+*   **The Bull Agent**: Synthesizes growth catalysts, competitive advantages, and technical breakouts.
+*   **The Bear Agent**: Deep-dives into debt levels, overvaluation, regulatory risks, and macro headwinds.
+*   **The Judge**: Reviews the debate, provides a neutral synthesis, and assigns a **Conviction Score (1-10)**.
 
-## 📡 Multi-Source Data Integrations (API Ecosystem)
-StockVision AI pulls from a diverse array of APIs to provide "Alpha" insights:
-*   **Reddit Social Pulse**: Real-time scanning of subreddits (r/wallstreetbets, r/IndianStreetBets, r/stocks) to calculate a **Retail Hype Score**.
-*   **Alpha Vantage**: Specialized global news sentiment analysis and upcoming earnings calendars.
-*   **Groww API**: Deep integration for zero-latency Indian market quotes and simulated order execution.
-*   **Yahoo Finance**: Core infrastructure for historical price data, financial statements, and institutional shareholding patterns.
-*   **Custom News Aggregator**: Real-time decoding of "Executive Tone" (Confident vs. Uncertain) from management communications.
+### 3. Predictive Neural Engine (FastAPI Backend)
+Every prediction request triggers a multi-model training and ensemble pipeline:
+*   **PatchTST (Transformer)**: Modern transformer architecture for capturing complex, long-term dependencies in price data.
+*   **LSTM (Long Short-Term Memory)**: A recurrent neural network optimized for market momentum and volatility patterns.
+*   **ARIMA**: Statistical baseline modeling to ensure forecasts are grounded in historical trends.
+*   **Ensemble Logic**: Weighted fusion of all three models for a finalized "Intelligence Price Target".
 
-## 💻 Premium Terminal Experience
-*   **Modern UI Fragments**: Built with Streamlit 1.55+ fragments for **instant, single-click updates**. No more double-loading charts.
-*   **Infinite Global Ticker**: A sleek, animated tape tracking 40+ global movers across US and Indian markets.
-*   **Business Health Architecture**: Deep-dive into 12+ real-time metrics: ROE, ROA, Debt-to-Equity, Operating Margins, Quick Ratios, and P/B Ratios.
-*   **AI Strategist Chat**: A context-aware advisor that knows your current ticker's fundamentals and helps you build step-by-step investment rationales.
+### 4. The Senior AI Strategist Chatbot
+An integrated, context-aware conversationalist:
+*   **Step-by-Step Math**: Ask "If I invest ₹10k today, what is my projected return?" and it will perform the calculations using live prices and the neural engine's forecast.
+*   **Contextual Awareness**: The bot knows which ticker you are looking at and has access to its fundamentals, news sentiment, and current AI signal.
+*   **Structured Advice**: Provides clear Rationale, Ticker Symbols, and Target Allocation percentages.
 
-## 📁 Project Architecture
+### 5. Market Context & Social Pulse
+*   **Reddit Hype Score**: Scans **r/wallstreetbets**, **r/stocks**, **r/IndianStreetBets**, and more to calculate retail crowd momentum.
+*   **Executive Tone Decoding**: NLP-driven analysis of management communications to detect "Confidence," "Defensiveness," or "Uncertainty."
+*   **Global Sentiment**: Fuses Alpha Vantage and Yahoo Finance news streams into a single sentiment score.
+
+---
+
+## 📡 The API Ecosystem (Data Sources)
+StockVision AI is a massive integration hub, utilizing:
+*   **Yahoo Finance API**: Historical price streams, institutional holder data, and financial statements.
+*   **Alpha Vantage**: Specialized News Sentiment endpoints and Earnings Calendars.
+*   **Reddit API**: Real-time social trend harvesting.
+*   **Groww API**: Deep-integrated for zero-latency Indian market quotes and order execution simulation.
+*   **Google Gemini API**: Advanced LLM reasoning and content generation.
+*   **Groq API**: High-speed LPU inference for Llama models.
+
+---
+
+## 📊 Business Health Architecture
+The platform provides instant visibility into 12+ critical financial metrics for **2,000+ Assets** (NSE India, S&P 500, Global Indices, and Crypto):
+*   **Valuation**: Forward P/E, Trailing P/E, Price-to-Book (P/B), Market Cap.
+*   **Profitability**: Return on Equity (ROE), Return on Assets (ROA), Operating Margins, Profit Margins.
+*   **Liquidity & Debt**: Quick Ratio, Current Ratio, Debt-to-Equity.
+*   **Growth**: Revenue Growth, Dividend Yield, Free Cash Flow.
+
+---
+
+## 📁 Detailed Project Structure
 ```text
 stockvision-ai/
 ├── app/
-│   ├── agents/          # Brain: Gemini & Groq LLM logic
-│   ├── api/             # Nerve Center: FastAPI prediction server
-│   ├── data/            # Ingestion: Multi-API data pipelines (Reddit, Groww, AV)
-│   ├── features/        # Engineering: Technical indicators & math
-│   ├── models/          # ML: PatchTST, LSTM, ARIMA implementations
-│   ├── sentiment/       # Analysis: NLP-based news & social scoring
-│   └── services/        # Logic: Intelligence synthesis & trending engines
+│   ├── agents/          # Brain: Gemini/Groq logic & prompt engineering
+│   ├── api/             # Nerve Center: FastAPI server & Neural endpoints
+│   ├── data/            # Pipelines: Reddit, Groww, AV, and Ticker DBs
+│   ├── features/        # Math: Feature engineering & technical indicators (RSI, BB)
+│   ├── models/          # ML: PatchTST, LSTM, ARIMA & Ensemble logic
+│   ├── portfolio/       # Strategy: Markowitz-style portfolio optimization
+│   ├── sentiment/       # NLP: Sentiment scoring & text analysis
+│   ├── services/        # Logic: Intelligence synthesis & Alert systems
+│   └── utils/           # Helpers: Currency mapping, formatters, evaluations
 ├── dashboard/
-│   └── streamlit_app.py # UI: The Premium Trading Terminal
-├── lightning_logs/      # (Ignored) Model training checkpoints
-└── requirements.txt     # All-in-one dependency list
+│   └── streamlit_app.py # UI: Premium Terminal using Streamlit 1.55 Fragments
+├── main.py              # CLI Entry point for local model tests
+└── requirements.txt     # Complete dependency manifest
 ```
 
-## ⚙️ Quick Start
+---
 
-1. **Clone & Install**:
+## ⚙️ Installation & Deployment
+
+1. **Clone & Environment**:
    ```bash
    git clone https://github.com/yourusername/stockvision-ai.git
+   cd stockvision-ai
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. **Install Dependencies**:
+   ```bash
    pip install -r requirements.txt
    ```
 
-2. **Configure API Keys (.env)**:
+3. **Configure API Keys (.env)**:
    ```env
-   GEMINI_API_KEY=...
-   GROQ_API_KEY=...
-   GROWW_API_KEY=...
-   ALPHA_VANTAGE_API_KEY=...
+   GEMINI_API_KEY=your_key
+   GROQ_API_KEY=your_key
+   ALPHA_VANTAGE_API_KEY=your_key
+   GROWW_API_KEY=your_key
    ```
 
-3. **Launch Platform**:
+4. **Run Platform**:
    *   **Backend**: `uvicorn app.api.server:app --port 8000`
    *   **Frontend**: `streamlit run dashboard/streamlit_app.py`
 
+---
+
 ## ⚠️ Disclaimer
-StockVision AI is a research tool powered by AI. Investing involves risk. Always consult with a certified financial advisor before making trading decisions.
+StockVision AI is an AI-powered research tool. Trading involves significant risk. Always consult a certified professional before making investment decisions.
