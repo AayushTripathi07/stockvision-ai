@@ -116,5 +116,8 @@ stockvision-ai/
 
 ---
 
-## ⚠️ Disclaimer
-StockVision AI is an AI-powered research tool. Trading involves significant risk. Always consult a certified professional before making investment decisions.
+## Project Demo
+Demo Link : https://youtu.be/xH7hLXebkPg 
+
+## Author
+Aayush Tripathi
