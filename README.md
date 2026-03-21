@@ -17,7 +17,7 @@ Most trading platforms provide data; StockVision AI provides **understanding**. 
 ## 🚀 Key Feature Deep-Dive
 
 ### 1. The Dual-Core AI Brain (High Availability)
-*   **Primary Brain**: **Google Gemini 1.5 Flash**. Used for deep reasoning, mathematical step-by-step financial calculations, and executive communications analysis.
+*   **Primary Brain**: **Google Gemini 2.5 Flash**. Used for deep reasoning, mathematical step-by-step financial calculations, and executive communications analysis.
 *   **Fail-Safe Engine**: **Groq (Llama 3.3 70B)**. An ultra-fast inference engine that takes over automatically if Gemini hits quota limits, ensuring your terminal never goes dark.
 
 ### 2. AI Research & Debate Engine
